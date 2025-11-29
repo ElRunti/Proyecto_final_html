@@ -1,4 +1,5 @@
 const checkbox = document.getElementById('modoClaro');
 checkbox.addEventListener('change', () => {
-  document.body.classList.toggle('claro', checkbox.checked);
+  document.documentElement.classList.toggle('claro', checkbox.checked);
 });
+
